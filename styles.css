@@ -1,0 +1,82 @@
+*{
+    background-color: aquamarine;
+}
+.Logo a{
+    text-decoration: none;
+    margin-top: -30%;
+}
+
+.Logo a dt span{
+    color: red;
+    font-size: 50px;
+}
+
+.Logo a dd{
+    position: absolute;
+    top: 65px;
+    left: -10px;
+    font-size: 20px;
+    color: rgb(187, 34, 187);
+}
+
+ul{
+    list-style-type: none;
+    float: right;
+    display: flex;
+    margin-top: -50px;
+}
+
+ul li a{
+    text-decoration: none;
+    border: 1px solid transparent;
+    color: #fff;
+    padding: 10px 15px;
+    margin: 5px;
+    font-weight: 500;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: black;
+}
+
+ul li.permanant a{
+    background-color: #fff;
+    color: black;
+}
+
+.Principal{
+    max-width: 114rem;
+    margin: 0 auto;
+}
+
+.titre{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+}
+
+.btn{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+
+.texte{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.test{
+    position: absolute;
+    top: 200%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
